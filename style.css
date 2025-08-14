@@ -1,6 +1,6 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #f7f9fc;
+  background: #e6f2ff; /* light blue background*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +18,7 @@ body {
 
 h1 {
   text-align: center;
-  color: #003366;
+  color: #004080; /* deep blue heading*/
   margin-bottom: 15px;
   font-size: 1.6rem;
 }
@@ -31,7 +31,7 @@ h1 {
 #taskInput {
   flex: 1;
   padding: 8px 10px;
-  border: 1px solid #ccd6e0;
+  border: 1px solid #99c2ff; /* blue border */
   border-radius: 6px;
   font-size: 0.95rem;
 }
@@ -43,7 +43,7 @@ h1 {
 
 #addTaskBtn {
   padding: 8px 14px;
-  background: #003366;
+  background: #004080; /* dark blue button*/
   color: white;
   border: none;
   border-radius: 6px;
@@ -64,7 +64,7 @@ h1 {
 
 #taskList li {
   padding: 8px 10px;
-  background: #f9f9f9;
+  background: #f0f8ff; /* pale blue background*/
   border: 1px solid #e6e6e6;
   border-radius: 6px;
   margin-bottom: 8px;
@@ -81,7 +81,7 @@ h1 {
 #taskList li.completed {
   text-decoration: line-through;
   color: #888;
-  background: #eef2f7;
+  background: #cce0ff; /* task completed darker blue*/
 }
 
 .delete-btn {
