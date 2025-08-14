@@ -1,6 +1,6 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #e6f2ff; 
+  background: #e6f2ff; /* light blue background */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,6 +8,7 @@ body {
   margin: 0;
 }
 
+/* Container styling */
 .todo-container {
   background: white;
   padding: 20px 25px;
@@ -18,11 +19,12 @@ body {
 
 h1 {
   text-align: center;
-  color: #004080; 
+  color: #004080; /* deep blue title */
   margin-bottom: 15px;
   font-size: 1.6rem;
 }
 
+/* Input row */
 .input-row {
   display: flex;
   gap: 8px;
@@ -31,19 +33,20 @@ h1 {
 #taskInput {
   flex: 1;
   padding: 8px 10px;
-  border: 1px solid #99c2ff; 
+  border: 1px solid #b3cde0;
   border-radius: 6px;
   font-size: 0.95rem;
 }
 
 #taskInput:focus {
   outline: none;
-  border-color: #003366;
+  border-color: #004080;
 }
 
+/* Add button */
 #addTaskBtn {
   padding: 8px 14px;
-  background: #004080; 
+  background: #004080;
   color: white;
   border: none;
   border-radius: 6px;
@@ -53,9 +56,10 @@ h1 {
 }
 
 #addTaskBtn:hover {
-  background: #004080;
+  background: #0059b3;
 }
 
+/* Task list */
 #taskList {
   list-style: none;
   padding: 0;
@@ -64,7 +68,7 @@ h1 {
 
 #taskList li {
   padding: 8px 10px;
-  background: #f0f8ff; 
+  background: #f9f9f9;
   border: 1px solid #e6e6e6;
   border-radius: 6px;
   margin-bottom: 8px;
@@ -75,15 +79,16 @@ h1 {
 }
 
 #taskList li:hover {
-  background: #f1f5fa;
+  background: #e6f0fa; /* very light blue hover */
 }
 
 #taskList li.completed {
   text-decoration: line-through;
   color: #888;
-  background: #cce0ff; 
+  background: #d9e6f2; /* soft blue for completed */
 }
 
+/* Delete button */
 .delete-btn {
   background: #d9534f;
   color: white;
